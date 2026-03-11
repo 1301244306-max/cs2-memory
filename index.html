@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Memory Game</title>
 </head>
 <body>
-    
+    <h1>Memory Game</h1>
+    <p>Click to flip cards and find matches</p>
+    <section id="gameboard">
+        <div class="row">
+            <div class="card" id="card1" onclick="flipCard('card1')">Coke</div>
+            <div class="card" id="card2" onclick="flipCard('card2')">Sprite</div>
+            <div class="card" id="card3" onclick="flipCard('card3')">Rootbeer</div>
+            <div class="card" id="card4" onclick="flipCard('card4')">Fanta</div>
+        </div>
+        <div class="row">
+            <div class="card" id="card5" onclick="flipCard('card5')">Coke</div>
+            <div class="card" id="card6" onclick="flipCard('card6')">Sprite</div>
+            <div class="card" id="card7" onclick="flipCard('card7')">Rootbeer</div>
+            <div class="card" id="card8" onclick="flipCard('card8')">Fanta</div>
+        </div>
+        
+    </section>
+    <h2 id="guessDisplay">Guesses: 0</h2>
+    <script src="script.js"></script>  
 </body>
 </html>
