@@ -1,0 +1,29 @@
+body {
+    background-color: peachpuff;
+    text-align: center;
+    font-family: Arial,;
+}
+
+.card {
+    background-color: darkred;
+    color: darkred;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    font-size: 40px;
+    border-radius: 20px;
+    transition: 300ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
